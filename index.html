@@ -1,11 +1,192 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <title>Covid - 19</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo.png" width="120" height="120" alt="" loading="lazy">
+        Covid - 19
+      </a>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: blueviolet;">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a onclick="loadI()" style="color:white; border-right: solid;" class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a  onclick="loadI()" style="color:white; border-right: solid;" class="nav-link" href="#">Que es?</a>
+            </li>
+            <li class="nav-item">
+              <a onclick="loadSi()" style="color:white; border-right: solid;"class="nav-link" href="#">Sintomas</a>
+            </li>
+            <li class="nav-item">
+              <a style="color:white; border-right: solid;"class="nav-link" href="#">Cuidados</a>
+            </li>
+            <li class="nav-item">
+              <a style="color:white;" class="nav-link" href="#">Colombia</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+  <div id="contenedor">
+    <div class="container-fluid" style="margin-bottom: 5px;">
+      <div class="row">
+        <div style="padding: 10px; margin-top: 10px;"class="col-sm-6">
+          <h2>¿Que es el COVID-19?</h2>
+          <p style="text-align: justify;">La COVID-19 es la enfermedad infecciosa causada por el coronavirus que se ha descubierto 
+            más recientemente. Tanto este nuevo virus como la enfermedad que provoca eran desconocidos 
+            antes de que estallara el brote en Wuhan (China) en diciembre de 2019. 
+            Actualmente la COVID-19 es una pandemia que afecta a muchos países de todo el mundo</p>
+            <button onclick="loadSe()" type="button" class="btn btn-primary">Ver mas..</button>
+        </div>
+        <div style="padding: 10px; margin-top: 10px;" class="col-sm-6">
+          <div class="card" style="width: 100%;">
+            <img src="https://www.sociedadcirugiaocular.com/images/img-coronavirus-covid19.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Coronavirus COVID-19</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div style="padding: 10px; margin-top: 10px;" class="col-sm-6">
+          <div class="card" style="width: 100%;">
+            <img src="https://www.65ymas.com/uploads/s1/41/61/97/bigstock-lung-virus-infection-and-coron-350084953.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Coronavirus SINTOMAS</p>
+            </div>
+          </div>
+        </div>
+      <div style="padding: 10px; margin-top: 10px;"class="col-sm-6">
+        <h2>¿Cuales son los síntomas?</h2>
+        <p style="text-align: justify;">
+          Los síntomas más habituales de la COVID-19 son la fiebre, 
+          la tos seca y el cansancio. Otros síntomas menos frecuentes que afectan a algunos
+           pacientes son los dolores y molestias, la congestión nasal, el dolor de cabeza, 
+           la conjuntivitis, el dolor de garganta, la diarrea, la pérdida del gusto o el olfato 
+           y las erupciones cutáneas o cambios de color en los dedos de las manos o los pies.
+            Estos síntomas suelen ser leves y comienzan gradualmente.
+           Algunas de las personas infectadas solo presentan síntomas levísimos.</p>
+           <button onclick="loadSi()" type="button" class="btn btn-primary">Ver mas..</button>
+      </div>
+    </div>
+
+    <div class="row">
+      <div style="padding: 10px; margin-top: 10px;"class="col-sm-6">
+        <h2>¿Como nos podemos cuidar?</h2>
+        <p style="text-align: justify; margin-bottom: 5px;">Practicar la higiene respiratoria y de las manos es importante en 
+          TODO momento y la mejor forma de protegerse. </p>
+
+          <p style="text-align: justify;"> Cuando sea posible, mantenga al menos un metro 
+          de distancia entre usted y los demás. Esto es especialmente importante si está al lado 
+          de alguien que esté tosiendo o estornudando. Dado que es posible que algunas personas
+           infectadas aún no presenten síntomas o que sus síntomas sean leves,
+           conviene que mantenga una distancia física con todas las personas.</p>
+           <button type="button" class="btn btn-primary">Ver mas..</button>
+      </div>
+      <div style="padding: 10px; margin-top: 10px;" class="col-sm-6">
+        <div class="card" style="width: 100%;">
+          <img src="https://www.mysanitas.com/sites/default/files/articles/img-blog-coronavirus_0.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Coronavirus COVID-19</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div style="padding: 10px; margin-top: 10px;" class="col-sm-6">
+        <div class="card" style="width: 100%;">
+          <img src="https://coronaviruscolombia.gov.co/Covid19/images/comportamientoCovid/bannerCifrasMobile.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Colombia-Coronavirus COVID-19</p>
+          </div>
+        </div>
+      </div>
+
+      <div style="padding: 10px; margin-top: 10px;"class="col-sm-6">
+        <h2>COVID-19 en Colombia</h2>
+        <p style="text-align: justify; margin-bottom: 5px;">
+          El Ministerio de Salud informó que en el país hay 67.114 casos activos de coronavirus,
+           de los que 7.106 son nuevos. Además, hubo 132 fallecidos, siendo 123 de días anteriores.</p>
+
+           <p style="text-align: justify; margin-bottom: 5px;">
+           En las últimas 24 horas se procesaron 35.973 pruebas, de las que 23.561 son PCR y 12.142 
+           son de antígenos.</p>
+
+          <p style="text-align: justify; margin-bottom: 5px;">
+           862.158 casos se han confirmado en el país,
+           de esos 766.300 se han recuperado y 26.844 han muerto.</p>
+           <button type="button" class="btn btn-primary">Ver mas..</button>
+           <button onclick="loadP()" type="button" class="btn btn-primary">Casos</button>
+      </div>
+
+    </div>
+    </div>
+
+
     
-</body>
+     
+   
+
+  </div>
+
+  <div style="border-top: solid; border-color:blueviolet;" class="row">
+    <div style="border-right: solid;border-left: solid; border-color:blueviolet;" class="col-sm-3">
+      <p style="color: black;">Enlaces Nacionales</p>
+      <a style="display: block;" href="https://www.minsalud.gov.co/salud/publica/PET/Paginas/Covid-19_copia.aspx">Min Salud</a>
+      <a style="display: block;" href="https://coronaviruscolombia.gov.co/Covid19/index.html">Coronavirus Colombia</a>
+      <a style="display: block;" href="https://www.ins.gov.co/Noticias/paginas/coronavirus.aspx">INSalud</a>
+    </div>
+    <div style="border-right: solid; border-color:blueviolet;"  class="col-sm-3">
+      <p style="color: black;" >Enlaces Internacionales</p>
+      <a style="display: block;"href="https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public/q-a-coronaviruses">OMS</a>
+      <a style="display: block;" href="https://www.mayoclinic.org/es-es/diseases-conditions/coronavirus/symptoms-causes/syc-20479963">Clinica Mayor</a>
+      <a style="display: block;" href="https://coronavirus.app/map">Coronavirus App</a>
+      <a style="display: block;" href="https://www.un.org/es/coronavirus">Naciones Unidas</a>
+    </div>
+    <div style="border-right: solid;border-color:blueviolet;"  class="col-sm-3">
+    </div>
+    <div style="border-right: solid;border-color:blueviolet;"  class="col-sm-3">
+      <p>Contacto</p>
+      <ul>
+        <li>
+          Email: carlosreneas@ufps.edu.co
+        </li>
+        <li>
+          Cel313 445 6789
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+
+
+      <!-- Footer -->
+        <footer style="background-color: blueviolet;"bclass="page-footer font-small blue row">
+        <!-- Copyright -->
+        <div style="color:white"class="footer-copyright text-center py-3">© 2020 Copyright:
+          <a href="https://mdbootstrap.com/"> Desarrollado por GABRIEL GARCIA QUINTERO</a>
+        </div>
+        <!-- Copyright -->
+        </footer>
+      <!-- Footer -->
+
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+      <script src="js/script.js"></script>
+  </body>
 </html>
