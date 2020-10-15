@@ -1,0 +1,684 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "zzzz-zzzz",
+      "name" : "Casos positivos de COVID-19 en Colombia",
+      "assetType" : "filter",
+      "attribution" : "Instituto Nacional de Salud",
+      "attributionLink" : "https://www.ins.gov.co/Noticias/Paginas/Coronavirus.aspx",
+      "averageRating" : 0,
+      "category" : "Salud y Protección Social",
+      "createdAt" : 1585342773,
+      "description" : "ADVERTENCIA DE RESPONSABILIDAD:\nLa variable etnia depende totalmente de tres cosas:\n- El correcto diligenciamiento de la variable Etnia por los profesionales de salud que notifican en más de 10.000 instituciones de salud en todos los municipios y departamentos.\n- Del autorreconocimiento de la persona cuando se le pregunta por esta variable.\n- Del listado censal que haga y mantenga actualizado cada departamento.\nNo depende del Instituto Nacional de Salud, y por lo tanto, es responsabilidad de las autoridades de cada municipio, departamento y distrito de Colombia; la calidad y consistencia de dicha variable\n\nDatasets históricos: https://www.ins.gov.co/Paginas/Boletines-casos-COVID-19-Colombia.aspx\n\nCualquier actualización que se identifique, quedará registrada al día siguiente en la publicación. Consulte la fe de erratas y notas aclaratorias en: http://www.ins.gov.co/Noticias/Paginas/Coronavirus.aspx\n\nContiene el consolidado de los casos positivos de Coronavirus COVID-19 en Colombia reportados por el Instituto Nacional de Salud (INS). Incluye variables como género, departamento, grupo etáreo, entre otras.\n\nPara las ciudades que son distritos (Cartagena, Bogotá, Santa Marta, Buenaventura y Barranquilla), sus cifras son independientes a las cifras del departamento al cual pertecen, en concordancia con la división oficial de Colombia.\n* Los casos marcados como en estudio están sujetos a modificación una vez se identifique el origen (importado o relacionado).\n** Recuperado es paciente con segunda prueba negativa para el virus. El paciente puede permanecer en el hospital por otras razones.\n***Por seguridad de las personas, algunos datos serán limitados evitando así la exposición y posible identificación en determinados municipios.",
+      "displayType" : "table",
+      "downloadCount" : 0,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "licenseId" : "CC_40_BY_SA",
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 0,
+      "provenance" : "community",
+      "publicationAppendEnabled" : false,
+      "publicationGroup" : 16971338,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1602731185,
+      "rowsUpdatedBy" : "t4cx-wdcy",
+      "tableId" : 17619166,
+      "totalTimesRated" : 0,
+      "viewCount" : 0,
+      "viewType" : "tabular",
+      "approvals" : [ {
+        "state" : "submittable",
+        "submissionObject" : "public_audience_request",
+        "submissionOutcome" : "change_audience",
+        "workflowId" : 2188,
+        "submissionDetails" : {
+          "permissionType" : "READ"
+        }
+      } ],
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 499192315,
+        "name" : "ID de caso",
+        "dataTypeName" : "text",
+        "fieldName" : "id_de_caso",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 98859826,
+        "width" : 100,
+        "format" : { }
+      }, {
+        "id" : 499192316,
+        "name" : "Fecha de notificación",
+        "dataTypeName" : "text",
+        "description" : "Fecha de notificación a SIVIGILA",
+        "fieldName" : "fecha_de_notificaci_n",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 96811504,
+        "width" : 100,
+        "format" : { }
+      }, {
+        "id" : 499192317,
+        "name" : "Código DIVIPOLA",
+        "dataTypeName" : "text",
+        "fieldName" : "c_digo_divipola",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 104920338,
+        "width" : 100,
+        "format" : { }
+      }, {
+        "id" : 499192318,
+        "name" : "Ciudad de ubicación",
+        "dataTypeName" : "text",
+        "description" : "Por seguridad de las personas, algunos datos serán limitados evitando así la exposición y posible identificación en determinados municipios.",
+        "fieldName" : "ciudad_de_ubicaci_n",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 96811506,
+        "width" : 100,
+        "format" : { }
+      }, {
+        "id" : 499192319,
+        "name" : "Departamento o Distrito ",
+        "dataTypeName" : "text",
+        "description" : "Por seguridad de las personas, algunos datos serán limitados evitando así la exposición y posible identificación en determinados municipios.",
+        "fieldName" : "departamento",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 96811507,
+        "width" : 100,
+        "format" : { }
+      }, {
+        "id" : 499192320,
+        "name" : "atención",
+        "dataTypeName" : "text",
+        "description" : "* Corresponde a muertes no relacionadas con COVID-19, aún si eran casos activos **Hay pacientes recuperados para COVID-19, que pueden permanecer en hospitalización por otras comorbilidades",
+        "fieldName" : "atenci_n",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 96811508,
+        "width" : 100,
+        "format" : { }
+      }, {
+        "id" : 499192321,
+        "name" : "Edad",
+        "dataTypeName" : "text",
+        "fieldName" : "edad",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 96811509,
+        "width" : 100,
+        "format" : { }
+      }, {
+        "id" : 499192322,
+        "name" : "Sexo",
+        "dataTypeName" : "text",
+        "fieldName" : "sexo",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 96811510,
+        "width" : 100,
+        "format" : { }
+      }, {
+        "id" : 499192323,
+        "name" : "Tipo",
+        "dataTypeName" : "text",
+        "description" : "Por seguridad de las personas, algunos datos serán limitados evitando así la exposición y posible identificación en determinados municipios.",
+        "fieldName" : "tipo",
+        "position" : 9,
+        "renderTypeName" : "text",
+        "tableColumnId" : 96811511,
+        "width" : 100,
+        "format" : { }
+      }, {
+        "id" : 499192324,
+        "name" : "Estado",
+        "dataTypeName" : "text",
+        "description" : "* Corresponde a muertes no relacionadas con COVID-19, aún si eran casos activos **Hay pacientes recuperados para COVID-19, que pueden permanecer en hospitalización por otras comorbilidades",
+        "fieldName" : "estado",
+        "position" : 10,
+        "renderTypeName" : "text",
+        "tableColumnId" : 99048186,
+        "width" : 100,
+        "format" : { }
+      }, {
+        "id" : 499192325,
+        "name" : "País de procedencia",
+        "dataTypeName" : "text",
+        "fieldName" : "pa_s_de_procedencia",
+        "position" : 11,
+        "renderTypeName" : "text",
+        "tableColumnId" : 96811512,
+        "width" : 100,
+        "format" : { }
+      }, {
+        "id" : 499192326,
+        "name" : "FIS",
+        "dataTypeName" : "text",
+        "description" : "Fecha de inicio de síntomas",
+        "fieldName" : "fis",
+        "position" : 12,
+        "renderTypeName" : "text",
+        "tableColumnId" : 98956854,
+        "width" : 100,
+        "format" : { }
+      }, {
+        "id" : 499192327,
+        "name" : "Fecha de muerte",
+        "dataTypeName" : "text",
+        "fieldName" : "fecha_de_muerte",
+        "position" : 13,
+        "renderTypeName" : "text",
+        "tableColumnId" : 98859828,
+        "width" : 100,
+        "format" : { }
+      }, {
+        "id" : 499192328,
+        "name" : "Fecha diagnostico",
+        "dataTypeName" : "text",
+        "description" : "Fecha de confirmación por laboratorio",
+        "fieldName" : "fecha_diagnostico",
+        "position" : 14,
+        "renderTypeName" : "text",
+        "tableColumnId" : 99048189,
+        "width" : 100,
+        "format" : { }
+      }, {
+        "id" : 499192329,
+        "name" : "Fecha recuperado",
+        "dataTypeName" : "text",
+        "fieldName" : "fecha_recuperado",
+        "position" : 15,
+        "renderTypeName" : "text",
+        "tableColumnId" : 98859827,
+        "width" : 100,
+        "format" : { }
+      }, {
+        "id" : 499192330,
+        "name" : "fecha reporte web",
+        "dataTypeName" : "text",
+        "description" : "Fecha de publicación en sitio web",
+        "fieldName" : "fecha_reporte_web",
+        "position" : 16,
+        "renderTypeName" : "text",
+        "tableColumnId" : 99332372,
+        "width" : 100,
+        "format" : { }
+      }, {
+        "id" : 499192331,
+        "name" : "Tipo recuperación",
+        "dataTypeName" : "text",
+        "description" : "Se refiere a la variable de tipo de recuperación que tiene dos opciones: PCR y tiempo. PCR indica que la persona se encuentra recuperada por segunda muestra, en donde dio negativo para el virus; mientras que tiempo significa que son personas que cumplieron 30 días posteriores al inicio de síntomas o toma de muestras que no tienen síntomas, que no tengan más de 70 años ni que estén hospitalizados. ",
+        "fieldName" : "tipo_recuperaci_n",
+        "position" : 17,
+        "renderTypeName" : "text",
+        "tableColumnId" : 103755730,
+        "width" : 100,
+        "format" : { }
+      }, {
+        "id" : 499192332,
+        "name" : "Codigo departamento",
+        "dataTypeName" : "number",
+        "fieldName" : "codigo_departamento",
+        "position" : 18,
+        "renderTypeName" : "number",
+        "tableColumnId" : 104915292,
+        "width" : 100,
+        "format" : { }
+      }, {
+        "id" : 499192333,
+        "name" : "Codigo pais",
+        "dataTypeName" : "number",
+        "fieldName" : "codigo_pais",
+        "position" : 19,
+        "renderTypeName" : "number",
+        "tableColumnId" : 104917310,
+        "width" : 100,
+        "format" : { }
+      }, {
+        "id" : 499192334,
+        "name" : "Pertenencia etnica",
+        "dataTypeName" : "text",
+        "description" : "Esta variable se actualizará cada semana. ADVERTENCIA DE RESPONSABILIDAD: La variable etnia depende totalmente de tres cosas: - El correcto diligenciamiento de la variable Etnia por los profesionales de salud que notifican en más de 10.000 instituciones de salud en todos los municipios y departamentos. - Del autorreconocimiento de la persona cuando se le pregunta por esta variable. - Del listado censal que haga y mantenga actualizado cada departamento. No depende del Instituto Nacional de Salud, y por lo tanto, es responsabilidad de las autoridades de cada municipio, departamento y distrito de Colombia; la calidad y consistencia de dicha variable",
+        "fieldName" : "pertenencia_etnica",
+        "position" : 20,
+        "renderTypeName" : "text",
+        "tableColumnId" : 105787128,
+        "width" : 100,
+        "format" : { }
+      }, {
+        "id" : 499192335,
+        "name" : "Nombre grupo etnico",
+        "dataTypeName" : "text",
+        "description" : "ADVERTENCIA DE RESPONSABILIDAD: La variable etnia depende totalmente de tres cosas: - El correcto diligenciamiento de la variable Etnia por los profesionales de salud que notifican en más de 10.000 instituciones de salud en todos los municipios y departamentos. - Del autorreconocimiento de la persona cuando se le pregunta por esta variable. - Del listado censal que haga y mantenga actualizado cada departamento. No depende del Instituto Nacional de Salud, y por lo tanto, es responsabilidad de las autoridades de cada municipio, departamento y distrito de Colombia; la calidad y consistencia de dicha variable",
+        "fieldName" : "nombre_grupo_etnico",
+        "position" : 21,
+        "renderTypeName" : "text",
+        "tableColumnId" : 106198631,
+        "width" : 100,
+        "format" : { }
+      }, {
+        "id" : 499192336,
+        "name" : "ubicación recuperado",
+        "dataTypeName" : "text",
+        "description" : "Algunos casos recuperados permanecen en hospitalización por otras comorbilidades. Se discrimina su ubicación independiente del estado. ",
+        "fieldName" : "ubicaci_n_recuperado",
+        "position" : 22,
+        "renderTypeName" : "text",
+        "tableColumnId" : 117599428,
+        "width" : 100,
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : true,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Creative Commons Attribution | Share Alike 4.0 International",
+        "logoUrl" : "images/licenses/cc30bysa.png",
+        "termsLink" : "http://creativecommons.org/licenses/by-sa/4.0/legalcode"
+      },
+      "metadata" : {
+        "custom_fields" : {
+          "Información de la Entidad" : {
+            "Municipio" : "Bogotá D.C.",
+            "Nombre de la Entidad" : "Instituto Nacional de Salud",
+            "Orden" : "Nacional",
+            "Sector" : "Salud y Protección Social",
+            "Área o dependencia" : "Instituto Nacional de Salud ",
+            "Departamento" : "Bogotá D.C."
+          },
+          "Información de Datos" : {
+            "Cobertura Geográfica" : "Nacional",
+            "Idioma" : "Español",
+            "Frecuencia de Actualización" : "Diaria",
+            "Fecha Emisión (aaaa-mm-dd)" : "2020-03-27"
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "query" : {
+        "filterCondition" : {
+          "type" : "operator",
+          "value" : "AND",
+          "children" : [ {
+            "type" : "operator",
+            "value" : "OR",
+            "children" : [ {
+              "type" : "operator",
+              "value" : "EQUALS",
+              "children" : [ {
+                "columnFieldName" : "fecha_de_notificaci_n",
+                "columnId" : 499192316,
+                "type" : "column"
+              }, {
+                "type" : "literal",
+                "value" : "2020-03-02T00:00:00.000"
+              } ],
+              "metadata" : {
+                "freeform" : true
+              }
+            }, {
+              "type" : "operator",
+              "value" : "EQUALS",
+              "children" : [ {
+                "columnFieldName" : "fecha_de_notificaci_n",
+                "columnId" : 499192316,
+                "type" : "column"
+              }, {
+                "type" : "literal",
+                "value" : "2020-03-06T00:00:00.000"
+              } ],
+              "metadata" : {
+                "freeform" : true
+              }
+            }, {
+              "type" : "operator",
+              "value" : "EQUALS",
+              "children" : [ {
+                "columnFieldName" : "fecha_de_notificaci_n",
+                "columnId" : 499192316,
+                "type" : "column"
+              }, {
+                "type" : "literal",
+                "value" : "2020-03-07T00:00:00.000"
+              } ],
+              "metadata" : {
+                "freeform" : true
+              }
+            }, {
+              "type" : "operator",
+              "value" : "EQUALS",
+              "children" : [ {
+                "columnFieldName" : "fecha_de_notificaci_n",
+                "columnId" : 499192316,
+                "type" : "column"
+              }, {
+                "type" : "literal",
+                "value" : "2020-03-09T00:00:00.000"
+              } ],
+              "metadata" : {
+                "freeform" : true
+              }
+            }, {
+              "type" : "operator",
+              "value" : "EQUALS",
+              "children" : [ {
+                "columnFieldName" : "fecha_de_notificaci_n",
+                "columnId" : 499192316,
+                "type" : "column"
+              }, {
+                "type" : "literal",
+                "value" : "2020-03-07T00:00:00.000"
+              } ],
+              "metadata" : {
+                "freeform" : true
+              }
+            }, {
+              "type" : "operator",
+              "value" : "EQUALS",
+              "children" : [ {
+                "columnFieldName" : "fecha_de_notificaci_n",
+                "columnId" : 499192316,
+                "type" : "column"
+              }, {
+                "type" : "literal",
+                "value" : "2020-03-10T00:00:00.000"
+              } ],
+              "metadata" : {
+                "freeform" : true
+              }
+            }, {
+              "type" : "operator",
+              "value" : "EQUALS",
+              "children" : [ {
+                "columnFieldName" : "fecha_de_notificaci_n",
+                "columnId" : 499192316,
+                "type" : "column"
+              }, {
+                "type" : "literal",
+                "value" : "2020-03-08T00:00:00.000"
+              } ],
+              "metadata" : {
+                "freeform" : true
+              }
+            }, {
+              "type" : "operator",
+              "value" : "EQUALS",
+              "children" : [ {
+                "columnFieldName" : "fecha_de_notificaci_n",
+                "columnId" : 499192316,
+                "type" : "column"
+              }, {
+                "type" : "literal",
+                "value" : "2020-03-09T00:00:00.000"
+              } ],
+              "metadata" : {
+                "freeform" : true
+              }
+            }, {
+              "type" : "operator",
+              "value" : "EQUALS",
+              "children" : [ {
+                "columnFieldName" : "fecha_de_notificaci_n",
+                "columnId" : 499192316,
+                "type" : "column"
+              }, {
+                "type" : "literal",
+                "value" : "2020-03-08T00:00:00.000"
+              } ],
+              "metadata" : {
+                "freeform" : true
+              }
+            }, {
+              "type" : "operator",
+              "value" : "EQUALS",
+              "children" : [ {
+                "columnFieldName" : "fecha_de_notificaci_n",
+                "columnId" : 499192316,
+                "type" : "column"
+              }, {
+                "type" : "literal",
+                "value" : "2020-03-12T00:00:00.000"
+              } ],
+              "metadata" : {
+                "freeform" : true
+              }
+            }, {
+              "type" : "operator",
+              "value" : "EQUALS",
+              "children" : [ {
+                "columnFieldName" : "fecha_de_notificaci_n",
+                "columnId" : 499192316,
+                "type" : "column"
+              }, {
+                "type" : "literal",
+                "value" : "2020-03-11T00:00:00.000"
+              } ],
+              "metadata" : {
+                "freeform" : true
+              }
+            } ],
+            "metadata" : {
+              "tableColumnId" : {
+                "16971338" : 96811504
+              },
+              "operator" : "EQUALS"
+            }
+          }, {
+            "type" : "operator",
+            "value" : "OR",
+            "children" : [ {
+              "type" : "operator",
+              "value" : "EQUALS",
+              "children" : [ {
+                "columnFieldName" : "ciudad_de_ubicaci_n",
+                "columnId" : 499192318,
+                "type" : "column"
+              }, {
+                "type" : "literal",
+                "value" : "Bogota D.C"
+              } ],
+              "metadata" : {
+                "freeform" : true
+              }
+            }, {
+              "type" : "operator",
+              "value" : "EQUALS",
+              "children" : [ {
+                "columnFieldName" : "ciudad_de_ubicaci_n",
+                "columnId" : 499192318,
+                "type" : "column"
+              }, {
+                "type" : "literal",
+                "value" : "Guadalajara de Buga"
+              } ],
+              "metadata" : {
+                "freeform" : true
+              }
+            }, {
+              "type" : "operator",
+              "value" : "EQUALS",
+              "children" : [ {
+                "columnFieldName" : "ciudad_de_ubicaci_n",
+                "columnId" : 499192318,
+                "type" : "column"
+              }, {
+                "type" : "literal",
+                "value" : "Medellín"
+              } ],
+              "metadata" : {
+                "freeform" : true
+              }
+            }, {
+              "type" : "operator",
+              "value" : "EQUALS",
+              "children" : [ {
+                "columnFieldName" : "ciudad_de_ubicaci_n",
+                "columnId" : 499192318,
+                "type" : "column"
+              }, {
+                "type" : "literal",
+                "value" : "Medellín"
+              } ],
+              "metadata" : {
+                "freeform" : true
+              }
+            }, {
+              "type" : "operator",
+              "value" : "EQUALS",
+              "children" : [ {
+                "columnFieldName" : "ciudad_de_ubicaci_n",
+                "columnId" : 499192318,
+                "type" : "column"
+              }, {
+                "type" : "literal",
+                "value" : "Itagüí"
+              } ],
+              "metadata" : {
+                "freeform" : true
+              }
+            }, {
+              "type" : "operator",
+              "value" : "EQUALS",
+              "children" : [ {
+                "columnFieldName" : "ciudad_de_ubicaci_n",
+                "columnId" : 499192318,
+                "type" : "column"
+              }, {
+                "type" : "literal",
+                "value" : "Cartagena de Indias"
+              } ],
+              "metadata" : {
+                "freeform" : true
+              }
+            } ],
+            "metadata" : {
+              "tableColumnId" : {
+                "16971338" : 96811506
+              },
+              "operator" : "EQUALS"
+            }
+          }, {
+            "type" : "operator",
+            "value" : "OR",
+            "metadata" : {
+              "tableColumnId" : {
+                "16971338" : 96811510
+              },
+              "operator" : "EQUALS"
+            }
+          } ],
+          "metadata" : {
+            "unifiedVersion" : 2
+          }
+        }
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "t4cx-wdcy",
+        "displayName" : "Instituto Nacional de Salud",
+        "profileImageUrlLarge" : "/api/users/t4cx-wdcy/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/t4cx-wdcy/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/t4cx-wdcy/profile_images/TINY",
+        "screenName" : "Instituto Nacional de Salud",
+        "type" : "interactive",
+        "userSegment" : "site_member",
+        "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+      },
+      "tags" : [ "covid-19", "salud", "pandemia", "coronavirus" ],
+      "flags" : [ "restorable", "restorePossibleForType", "unsaved" ]
+    }
+  },
+  "data" : [ [ "row-xzdf_4i7u~vsry", "00000000-0000-0000-9F7F-6A9AEB3C623D", 0, 1602730545, null, 1602730545, null, "{ }", "2", "2020-03-06T00:00:00.000", "76111", "Guadalajara de Buga", "Valle del Cauca", "Recuperado", "34", "M", "Importado", "Leve", "ESPAÑA", "2020-03-04T00:00:00.000", null, "2020-03-09T00:00:00.000", "2020-03-19T00:00:00.000", "2020-03-09T00:00:00.000", "PCR", "76", "724", "Negro", null, "Casa" ]
+, [ "row-8zns~te5y-mi9x", "00000000-0000-0000-75AC-627BBB70FFC5", 0, 1602730545, null, 1602730545, null, "{ }", "3", "2020-03-07T00:00:00.000", "05001", "Medellín", "Antioquia", "Recuperado", "50", "F", "Importado", "Leve", "ESPAÑA", "2020-02-29T00:00:00.000", null, "2020-03-09T00:00:00.000", "2020-03-15T00:00:00.000", "2020-03-09T00:00:00.000", "PCR", "5", "724", "Otro", null, "Casa" ]
+, [ "row-u58p-ukh3~jijj", "00000000-0000-0000-4F55-0F934FA4D896", 0, 1602730545, null, 1602730545, null, "{ }", "4", "2020-03-09T00:00:00.000", "05001", "Medellín", "Antioquia", "Recuperado", "55", "M", "Relacionado", "Leve", null, "2020-03-06T00:00:00.000", null, "2020-03-11T00:00:00.000", "2020-03-26T00:00:00.000", "2020-03-11T00:00:00.000", "PCR", "5", null, "Otro", null, "Casa" ]
+, [ "row-fvfv.tjtw.wpci", "00000000-0000-0000-0E46-BB1907129D69", 0, 1602730545, null, 1602730545, null, "{ }", "5", "2020-03-09T00:00:00.000", "05001", "Medellín", "Antioquia", "Recuperado", "25", "M", "Relacionado", "Leve", null, "2020-03-08T00:00:00.000", null, "2020-03-11T00:00:00.000", "2020-03-23T00:00:00.000", "2020-03-11T00:00:00.000", "PCR", "5", null, "Otro", null, "Casa" ]
+, [ "row-jkwy.xfsg_iu2e", "00000000-0000-0000-1124-9C8CFC5D4B75", 0, 1602730545, null, 1602730545, null, "{ }", "6", "2020-03-10T00:00:00.000", "05360", "Itagüí", "Antioquia", "Recuperado", "27", "F", "Relacionado", "Leve", null, "2020-03-06T00:00:00.000", null, "2020-03-11T00:00:00.000", "2020-03-26T00:00:00.000", "2020-03-11T00:00:00.000", "PCR", "5", null, "Otro", null, "Casa" ]
+, [ "row-r9yh_wa5d~bdz4", "00000000-0000-0000-13D1-548EA9B5DE3F", 0, 1602730545, null, 1602730545, null, "{ }", "7", "2020-03-08T00:00:00.000", "13001", "Cartagena de Indias", "Cartagena D.T. y C.", "Recuperado", "85", "F", "Importado", "Leve", "ESTADOS UNIDOS", "2020-03-02T00:00:00.000", null, "2020-03-11T00:00:00.000", "2020-03-17T00:00:00.000", "2020-03-11T00:00:00.000", "PCR", "13", "840", "Otro", null, "Casa" ]
+, [ "row-wmck-hnqs_ufx3", "00000000-0000-0000-B0E5-2BB093FD7938", 0, 1602730545, null, 1602730545, null, "{ }", "20", "2020-03-11T00:00:00.000", "05001", "Medellín", "Antioquia", "Recuperado", "26", "F", "Relacionado", "Leve", null, "2020-03-09T00:00:00.000", null, "2020-03-14T00:00:00.000", "2020-03-24T00:00:00.000", "2020-03-14T00:00:00.000", "PCR", "5", null, "Otro", null, "Casa" ]
+, [ "row-zcbm-vgzx.f9vt", "00000000-0000-0000-B7DB-F6576C4497E1", 0, 1602730545, null, 1602730545, null, "{ }", "21", "2020-03-11T00:00:00.000", "05001", "Medellín", "Antioquia", "Recuperado", "28", "M", "Relacionado", "Leve", null, "2020-03-10T00:00:00.000", null, "2020-03-14T00:00:00.000", "2020-04-10T00:00:00.000", "2020-03-14T00:00:00.000", "PCR", "5", null, "Otro", null, "Casa" ]
+, [ "row-a5ec-gen6.vm83", "00000000-0000-0000-DC0D-29EFC7B81645", 0, 1602730545, null, 1602730545, null, "{ }", "32", "2020-03-11T00:00:00.000", "05001", "Medellín", "Antioquia", "Recuperado", "55", "M", "Importado", "Leve", "ESPAÑA", "2020-03-10T00:00:00.000", null, "2020-03-15T00:00:00.000", "2020-03-25T00:00:00.000", "2020-03-15T00:00:00.000", "PCR", "5", "724", "Otro", null, "Casa" ]
+, [ "row-ux69~eu54_7tgz", "00000000-0000-0000-A71E-40E0DF9F7EC6", 0, 1602730545, null, 1602730545, null, "{ }", "107", "2020-03-12T00:00:00.000", "05001", "Medellín", "Antioquia", "Recuperado", "56", "M", "Importado", "Leve", "ESPAÑA", "2020-03-10T00:00:00.000", null, "2020-03-19T00:00:00.000", "2020-03-30T00:00:00.000", "2020-03-19T00:00:00.000", "PCR", "5", "724", "Otro", null, "Casa" ]
+ ]
+}

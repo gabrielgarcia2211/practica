@@ -45,14 +45,20 @@ function loadI() {
 
   function carga(){
     let template = '';
-        $.getJSON('partidos.json', function(datos){
+        $.getJSON('rows.json', function(datos){
           $("#contenido").html("");
        
-            $.each(datos["partidos"], function(idx,partidos){
+            $.each(datos["data"], function(idx,partidos){
               template += `<tr>
-                <td>${partidos.fecha}</td>
-                <td>${partidos.equipo1}</td>
-                <td>${partidos.equipo2}</td>
+                <td>${partidos[9]}</td>
+                <td>${partidos[11]}</td>
+                <td>${partidos[13]}</td>
+                <td>${partidos[14]}</td>
+                <td>${partidos[15]}</td>
+                <td>${partidos[16]}</td>
+                <td>${partidos[17]}</td>
+                <td>${partidos[29]}</td>
+        
                 </tr>`
             });
             $('tbody').html(template);
